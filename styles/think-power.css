@@ -36,7 +36,7 @@ header {
 
 .banner-title {
   font-weight: 700;
-  line-height: 76px;
+  line-height: 60px;
   letter-spacing: 0%;
   text-align: right;
   font-size: 55px;
@@ -52,10 +52,54 @@ header {
   font-size: 16px;
 }
 
-.btn-div{
-    text-align: right;
+.btn-div {
+  text-align: right;
 }
 
-.banner-text *{
-    margin-bottom: 25px;
+.banner-text * {
+  margin-bottom: 25px;
 }
+
+/* failures-years-section styles */
+.failures-years-section {
+  width: 65%;
+  max-width: 1050px;
+  margin: 120px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.left-failures img {
+  /* width: 100%; */
+  height: 600px;
+}
+
+.right-failures ul li {
+  list-style: none;
+}
+
+.fa-solid {
+  color: rgb(22, 216, 135);
+  margin-right: 10px;
+}
+
+.right-failures h1 {
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: left;
+  font-size: 40px;
+}
+
+.right-failures p {
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0;
+  color: #444343;
+}
+
+.right-failures ul{
+    color: #444343;
+}
+
