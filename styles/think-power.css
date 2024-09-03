@@ -122,3 +122,42 @@ header {
   letter-spacing: 0%;
   font-size: 32px;
 }
+
+/* positive-mindset section styles */
+
+.positive-mindset-container {
+  width: 71%;
+  margin: 100px auto;
+  background-image: 
+  linear-gradient(to left, rgb(241, 91, 34, 0.01),rgba(241, 91, 34, 0.93)),
+  url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  border-radius: 8px;
+}
+
+.positive-mindset-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 321px;
+  color: #FFFFFF;
+}
+
+.positive-mindset-container button {
+  color: #f15b22;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  padding: 15px 30px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  font-size: 16px;
+}
+
