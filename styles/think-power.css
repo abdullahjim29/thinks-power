@@ -99,7 +99,26 @@ header {
   color: #444343;
 }
 
-.right-failures ul{
-    color: #444343;
+.right-failures ul {
+  color: #444343;
 }
 
+/* my plans section styles */
+.my-plans-container {
+  width: 70%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.my-plans-container h1 {
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  font-size: 32px;
+}
